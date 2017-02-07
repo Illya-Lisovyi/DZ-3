@@ -1,12 +1,67 @@
 .wrapper {
-	width: 60%;
-	margin-left: 20%;
+	width: 50%;
+	margin-left: 25%;
 }
 
 .header div {
 	display: inline-block;
 }
 
-.header .project {
-	
+.header .project-name {
+	font-size: 26px;
+	color: gray;
+}
+
+.header .link {
+	float: right;
+	margin: 10px;
+}
+
+.header .link a {
+	color: blue;
+	text-decoration: none;
+	padding: 5px;
+}
+.header .link a:hover {
+	color: white;
+	background: blue;
+	border-radius: 5px;
+}
+
+.header .jumbotron {
+	background: #93B3CF;
+	border-radius: 10px;
+	text-align: center;
+	padding: 30px;
+	margin: 5px;
+	font-size: 20px
+}
+
+button {
+	background: green;
+	border: none;
+	border-radius: 10px;
+	padding: 10px 20px;
+	color: white;
+}
+
+.content {
+	padding: 18px;
+}
+
+.content .row {
+	width: 100%;
+}
+
+.content .row .subheading {
+	display: inline-block;
+	width: 45%;
+}
+.content .row .subheading:last-child {
+	margin-left: 50px;
+}
+
+.footer {
+	padding: 10px;
+	color: grey;
 }
